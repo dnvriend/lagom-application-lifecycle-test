@@ -1,0 +1,1 @@
+put your domain case classes/actors/persistent entities here

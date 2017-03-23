@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-api.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-impl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-application-lifecycle-test-impl-build.iml" />
+    </modules>
+  </component>
+</project>
