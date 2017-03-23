@@ -13,3 +13,5 @@ bin
 logs
 /.idea/
 /logs/
+logs/
+/project/project
