@@ -7,12 +7,14 @@ import play.api.libs.json.{Format, Json}
 trait GreetingService extends Service {
 
   def hello(name: String): ServiceCall[NotUsed, String]
+  def helloWithStatus(status: Int): ServiceCall[NotUsed, NotUsed]
 
   override final def descriptor: Descriptor = {
     import Service._
     named("lagom-application-lifecycle-test").withCalls(
       pathCall("/api/hello/:name", hello _),
-      pathCall("/api/hello?name", hello _)
+      pathCall("/api/hello?name", hello _),
+      pathCall("/api/status/:status", helloWithStatus _)
     ).withAutoAcl(true)
   }
 }
